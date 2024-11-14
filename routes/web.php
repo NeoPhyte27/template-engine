@@ -13,7 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('layouts.app');
+Route::get('/table', function () {
+    return view('table', [
+        'title' => 'table'
+    ]);
 });
 
+Route::get('/data_tables', function () {
+    return view('data-tables', [
+        'title' => 'data table'
+    ]);
+});

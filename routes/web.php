@@ -19,8 +19,8 @@ Route::get('/table', function () {
     ]);
 });
 
-Route::get('/data_tables', function () {
-    return view('data-tables', [
+Route::get('/dataTables', function () {
+    return view('dataTables', [
         'title' => 'data table'
     ]);
 });

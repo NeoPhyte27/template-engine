@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/', function () {
+    return view('table', [
+        'title' => 'Home'
+    ]);
+});
+
 Route::get('/table', function () {
     return view('table', [
         'title' => 'table'

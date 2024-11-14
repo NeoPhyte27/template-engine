@@ -55,7 +55,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/data_tables" class="nav-link {{ ($title === 'DATA TABLE') ? 'active' : '' }}">
+                <a href="/dataTables" class="nav-link {{ ($title === 'DATA TABLE') ? 'active' : '' }}">
                   <i class="far fa-circle nav-icon"></i>
                   <p>data_table</p>
                 </a>
